@@ -28,11 +28,12 @@ body{
 #entries div{
     display: inline-block;
     background-color: lightgray;
-    transition: all .4s ease;
+    transition: all .3s ease;
     user-select: none;
     color: #555555;
 }
 #entries div:hover{
+    color: white;
     background-color: darkgray;
 }
 
