@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+}
+html{
+    background-color: #EEEEEE;
+    color: #555555;
+}
+body{
+    text-align: center;
+}
+.en{
+    font-family: monospace;
+}
+.cn{
+    font-family: "Hiragino Sans GB", "Pingfang SC", "Microsoft Yahei";
+}
+#title .en{
+    margin-bottom: 3vh;
+}
+#welcome .en{
+    margin-bottom: 1vh;
+}
+#entries div{
+    display: inline-block;
+    background-color: lightgray;
+    transition: all .4s ease;
+    user-select: none;
+    color: #555555;
+}
+#entries div:hover{
+    background-color: darkgray;
+}
+
+/*Small Screen*/
+@media screen and (max-width: 600px){
+    #title{
+        padding-top: 16vh;
+        font-size: 3.5vmax;
+    }
+    #welcome{
+        padding-top: 6vh;
+        font-size: 4vmin;
+    }
+    #entries{
+        padding-top: 4vh;
+        font-size: 5vmin;
+    }
+    #entries div{
+        border-radius: 5vmin;
+        margin: 2vmin;
+        width: 20vmin;
+        height: 12vmin;
+        line-height: 12vmin;
+    }
+}
+/*Medium Screen*/
+@media screen and (min-width: 601px) and (max-width: 1000px){
+    #title{
+        padding-top: 20vh;
+        font-size: 3.0vmax;
+    }
+    #welcome{
+        padding-top: 8vh;
+        font-size: 3vmin;
+    }
+    #entries{
+        padding-top: 4vh;
+        font-size: 4vmin;
+    }
+    #entries div{
+        border-radius: 4.5vmin;
+        margin: 2vmin;
+        width: 15vmin;
+        height: 9vmin;
+        line-height: 9vmin;
+    }
+}
+/*Large Screen*/
+@media screen and (min-width: 1001px){
+    #title{
+        padding-top: 24vh;
+        font-size: 2.0vmax;
+    }
+    #welcome{
+        padding-top: 10vh;
+        font-size: 2vmin;
+    }
+    #entries{
+        padding-top: 4vh;
+        font-size: 3vmin;
+    }
+    #entries div{
+        font-size: 3vmin;
+        border-radius: 3vmin;
+        margin: 2vmin;
+        width: 12vmin;
+        height: 6vmin;
+        line-height: 6vmin;
+    }
+}
