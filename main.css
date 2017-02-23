@@ -51,11 +51,11 @@ body{
         font-size: 3.5vmax;
     }
     #welcome{
-        padding-top: 6vh;
+        margin-top: 6vh;
         font-size: 4vmin;
     }
     #entries{
-        padding-top: 4vh;
+        margin-top: 4vh;
         font-size: 5vmin;
     }
     #entries div{
@@ -72,11 +72,11 @@ body{
         font-size: 3.0vmax;
     }
     #welcome{
-        padding-top: 8vh;
+        margin-top: 8vh;
         font-size: 3vmin;
     }
     #entries{
-        padding-top: 4vh;
+        margin-top: 4vh;
         font-size: 4vmin;
     }
     #entries div{
@@ -93,11 +93,11 @@ body{
         font-size: 2.0vmax;
     }
     #welcome{
-        padding-top: 10vh;
+        margin-top: 10vh;
         font-size: 2vmin;
     }
     #entries{
-        padding-top: 4vh;
+        margin-top: 4vh;
         font-size: 3vmin;
     }
     #entries div{
