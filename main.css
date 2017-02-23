@@ -11,7 +11,15 @@ html{
     color: #555555;
 }
 body{
+    width: 100vw;
+    height: 100vh;
     text-align: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
 .en{
     font-family: monospace;
@@ -40,7 +48,6 @@ body{
 /*Small Screen*/
 @media screen and (max-width: 600px){
     #title{
-        padding-top: 16vh;
         font-size: 3.5vmax;
     }
     #welcome{
@@ -62,7 +69,6 @@ body{
 /*Medium Screen*/
 @media screen and (min-width: 601px) and (max-width: 1000px){
     #title{
-        padding-top: 20vh;
         font-size: 3.0vmax;
     }
     #welcome{
@@ -84,7 +90,6 @@ body{
 /*Large Screen*/
 @media screen and (min-width: 1001px){
     #title{
-        padding-top: 24vh;
         font-size: 2.0vmax;
     }
     #welcome{
