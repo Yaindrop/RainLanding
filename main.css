@@ -37,17 +37,6 @@ body{
     display: block;
     transition: all .3s ease;
 }
-#symbol{    
-    position: absolute; left: 0; top: 0; right: 0; bottom: 0;
-    margin: auto; 
-    opacity: 0;
-}
-#title .en:hover #word{
-    opacity: 0;
-}
-#title .en:hover #symbol{
-    opacity: 1;
-}
 #welcome .en{
     margin-bottom: 1vh;
 }
